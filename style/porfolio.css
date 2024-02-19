@@ -64,21 +64,32 @@ footer {
   font-size: 24px;
 }
 
-.about-hero {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-hero h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-hero h2 {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-hero-content {
+.content {
   margin: 30px;
 }
 
@@ -100,7 +111,7 @@ footer {
   padding: 15px 30px;
 }
 
-.about-hero .btn-branding {
+.content-container .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
@@ -127,7 +138,7 @@ footer {
     padding: 80px 20px;
   }
 
-  .about-hero {
+  .content {
     text-align: center;
     padding: 0;
   }
