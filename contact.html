@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Responsive</title>
+    <meta
+      name="description"
+      content="Contact Chioma. Chioma is a front-end engineer based in Nigeria. Being a front-end developer is something she has always wanted and is willing to teach other young women who wants to break into Tech"
+    />
+    <title>Contact Chioma</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,26 +34,111 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="/Images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Chioma Logo"
+          />
+          <img
+            src="/Images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Chioma Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Chioma">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Chioma's work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Chioma">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Lets's get in touch!</h1>
-        <h3>Email</h3>
-        <p>
-          <a href="mailto:chiogzy@gmail.com" target="_blank"
-            >chiogzy@gmail.com</a
-          >
-        </p>
-        <h3>Twitter</h3>
-        <p>
-          <a href="https://www.twitter.com/chiogzy" target="_blank">@chiogzy</a>
-        </p>
-        <h3>Instagram</h3>
-        <p>
-          <a href="https://www.instagram.com/chiogzy" target="_blank"
-            >@chiogzy</a
-          >
-        </p>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">
+              let's work together and I'll help you by all my best
+            </p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Chioma"
+            >
+              Let's talk here
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:chiogzy@gmail.com"
+            class="email-link"
+            title="Email Chioma"
+          >
+            chiogzy@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/chiogzy"
+            target="_blank"
+            title="GitHub profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://instagram.com/chiogzy"
+            target="_blank"
+            title="Instagram profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://twitter.com/chiogzy"
+            target="_blank"
+            title="Twitter profile"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+          <p>
+            This project was coded by Chioma Oguogho, it is
+            <a
+              href="https://github.com/chiogzy/Portfolio-Project"
+              target="_blank"
+              class="link"
+              >Open-sourced</a
+            >
+            😊 and
+            <a
+              href="https://projecthomepageresponsive.netlify.app/"
+              target="_blank"
+              class="link"
+              >hosted on Netlify</a
+            >
+          </p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
